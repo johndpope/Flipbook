@@ -22,25 +22,26 @@ class ViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
-        let activity = UIActivityIndicatorView(activityIndicatorStyle: .Gray)
-        activity.backgroundColor = UIColor.whiteColor()
-        view.addSubview(activity)
-        activity.center = view.center
-        
-        let arcView = ArcView(frame: CGRect(x: 20, y: 20, width: 120, height: 120))
-        view.addSubview(arcView)
-        arcFlipbook = Flipbook()
-        arcView.shapeLayer.strokeEnd = 0
-        
-        arcFlipbook.renderTargetView(arcView, imagePrefix: "arc", frameCount: 60) { (view, frame) in
-            if let arcView = view as? ArcView {
-                arcView.shapeLayer.strokeEnd = CGFloat(frame) * (1.0 / 60.0)
-            }
-        }
+        let container = UIView(frame: CGRect(x: 0, y: 0, width: 160, height: 160))
+        view.addSubview(container)
+        container.backgroundColor = UIColor.clearColor()
 
+        var pointAnnotation:MKPointAnnotation = MKPointAnnotation()
+        pointAnnotation.title = "Apple HQ"
+        var annotationView: SVPulsingAnnotationView = SVPulsingAnnotationView(annotation: pointAnnotation, reuseIdentifier: "test")
+   
+        annotationView.annotationColor = UIColor.redColor()
+        annotationView.backgroundColor = UIColor.clearColor()
+        annotationView.frame = CGRectMake(60, 60, annotationView.frame.size.width, annotationView.frame.size.height)
+        container.addSubview(annotationView)
+        
         activityFlipbook = Flipbook()
-        activityFlipbook.renderTargetView(activity, duration: 1.0, imagePrefix: "activity")
-        activity.startAnimating()
+        activityFlipbook.renderTargetView(container, duration: 3.0, imagePrefix: "pulse")
+        
+
+      
+//        activityFlipbook.renderTargetView(activity, duration: 1.0, imagePrefix: "activity")
+//        activity.startAnimating()
     }
     
 }

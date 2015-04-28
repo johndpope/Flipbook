@@ -20,6 +20,7 @@ class Flipbook: NSObject {
     private var imagePrefix: String!
     private var imageCounter = 0
     
+ 
     // Render the target view to images for the specified duration
     func renderTargetView(view: UIView, duration: NSTimeInterval, imagePrefix: String, frameInterval: Int = 1) {
         assert(frameInterval >= 1)
@@ -61,7 +62,7 @@ class Flipbook: NSObject {
     
     private func newImagePath() -> String? {
         if let documentsDirectory = documentsDirectory() {
-            let imagePath = documentsDirectory.stringByAppendingPathComponent(NSString(format: "%@-%d@2x.png", imagePrefix, imageCounter++))
+            let imagePath = documentsDirectory.stringByAppendingPathComponent(NSString(format: "%@-%d@2x.png", imagePrefix, imageCounter++) as String)
             return imagePath
         }
         
@@ -84,7 +85,9 @@ class Flipbook: NSObject {
 
 extension UIView {
     func snapshotImage() -> UIImage {
-        UIGraphicsBeginImageContextWithOptions(bounds.size, opaque, 2.0)
+        UIGraphicsBeginImageContextWithOptions(bounds.size, false, 2.0)
+        let color:UIColor = self.backgroundColor!
+        self.backgroundColor = UIColor.clearColor();
         
         let layer: CALayer = self.layer.presentationLayer() as? CALayer ?? self.layer
         layer.renderInContext(UIGraphicsGetCurrentContext())
@@ -92,6 +95,7 @@ extension UIView {
         let image = UIGraphicsGetImageFromCurrentImageContext()
         
         UIGraphicsEndImageContext()
+        self.backgroundColor = color
         
         return image
     }

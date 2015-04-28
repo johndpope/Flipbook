@@ -136,6 +136,14 @@
 		1765271C1A236AC500B18ACB /* arc-57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176526E01A236AC500B18ACB /* arc-57@2x.png */; };
 		1765271D1A236AC500B18ACB /* arc-58@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176526E11A236AC500B18ACB /* arc-58@2x.png */; };
 		1765271E1A236AC500B18ACB /* arc-59@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 176526E21A236AC500B18ACB /* arc-59@2x.png */; };
+		83FDB2931AEF56E7004847EB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 83FDB2871AEF56E7004847EB /* .gitignore */; };
+		83FDB2941AEF56E7004847EB /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 83FDB2881AEF56E7004847EB /* LICENSE.txt */; };
+		83FDB2951AEF56E7004847EB /* Dot.pcvd in Resources */ = {isa = PBXBuildFile; fileRef = 83FDB28A1AEF56E7004847EB /* Dot.pcvd */; };
+		83FDB2961AEF56E7004847EB /* Halo.pcvd in Resources */ = {isa = PBXBuildFile; fileRef = 83FDB28B1AEF56E7004847EB /* Halo.pcvd */; };
+		83FDB2971AEF56E7004847EB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 83FDB28C1AEF56E7004847EB /* README.md */; };
+		83FDB2981AEF56E7004847EB /* SVAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FDB28F1AEF56E7004847EB /* SVAnnotation.m */; };
+		83FDB2991AEF56E7004847EB /* SVPulsingAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FDB2911AEF56E7004847EB /* SVPulsingAnnotationView.m */; };
+		83FDB29A1AEF56E7004847EB /* SVPulsingAnnotationView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 83FDB2921AEF56E7004847EB /* SVPulsingAnnotationView.podspec */; };
 		ED6EAF971A234272001EFFF8 /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6EAF961A234272001EFFF8 /* ArcView.swift */; };
 		ED8D389B1A1F61A0001611C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8D389A1A1F61A0001611C5 /* AppDelegate.swift */; };
 		ED8D389D1A1F61A0001611C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8D389C1A1F61A0001611C5 /* ViewController.swift */; };
@@ -316,6 +324,17 @@
 		176526E01A236AC500B18ACB /* arc-57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arc-57@2x.png"; sourceTree = "<group>"; };
 		176526E11A236AC500B18ACB /* arc-58@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arc-58@2x.png"; sourceTree = "<group>"; };
 		176526E21A236AC500B18ACB /* arc-59@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arc-59@2x.png"; sourceTree = "<group>"; };
+		83FDB2871AEF56E7004847EB /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		83FDB2881AEF56E7004847EB /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		83FDB28A1AEF56E7004847EB /* Dot.pcvd */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Dot.pcvd; sourceTree = "<group>"; };
+		83FDB28B1AEF56E7004847EB /* Halo.pcvd */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Halo.pcvd; sourceTree = "<group>"; };
+		83FDB28C1AEF56E7004847EB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		83FDB28E1AEF56E7004847EB /* SVAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVAnnotation.h; sourceTree = "<group>"; };
+		83FDB28F1AEF56E7004847EB /* SVAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVAnnotation.m; sourceTree = "<group>"; };
+		83FDB2901AEF56E7004847EB /* SVPulsingAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPulsingAnnotationView.h; sourceTree = "<group>"; };
+		83FDB2911AEF56E7004847EB /* SVPulsingAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVPulsingAnnotationView.m; sourceTree = "<group>"; };
+		83FDB2921AEF56E7004847EB /* SVPulsingAnnotationView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SVPulsingAnnotationView.podspec; sourceTree = "<group>"; };
+		83FDB29B1AEF57A3004847EB /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		ED6EAF961A234272001EFFF8 /* ArcView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
 		ED8D38951A1F61A0001611C5 /* Flipbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flipbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED8D38991A1F61A0001611C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -538,9 +557,44 @@
 			path = ArcImages;
 			sourceTree = "<group>";
 		};
+		83FDB2861AEF56E7004847EB /* SVPulsingAnnotationView */ = {
+			isa = PBXGroup;
+			children = (
+				83FDB2871AEF56E7004847EB /* .gitignore */,
+				83FDB2881AEF56E7004847EB /* LICENSE.txt */,
+				83FDB2891AEF56E7004847EB /* PaintCode files */,
+				83FDB28C1AEF56E7004847EB /* README.md */,
+				83FDB28D1AEF56E7004847EB /* SVPulsingAnnotationView */,
+				83FDB2921AEF56E7004847EB /* SVPulsingAnnotationView.podspec */,
+			);
+			path = SVPulsingAnnotationView;
+			sourceTree = "<group>";
+		};
+		83FDB2891AEF56E7004847EB /* PaintCode files */ = {
+			isa = PBXGroup;
+			children = (
+				83FDB28A1AEF56E7004847EB /* Dot.pcvd */,
+				83FDB28B1AEF56E7004847EB /* Halo.pcvd */,
+			);
+			path = "PaintCode files";
+			sourceTree = "<group>";
+		};
+		83FDB28D1AEF56E7004847EB /* SVPulsingAnnotationView */ = {
+			isa = PBXGroup;
+			children = (
+				83FDB28E1AEF56E7004847EB /* SVAnnotation.h */,
+				83FDB28F1AEF56E7004847EB /* SVAnnotation.m */,
+				83FDB2901AEF56E7004847EB /* SVPulsingAnnotationView.h */,
+				83FDB2911AEF56E7004847EB /* SVPulsingAnnotationView.m */,
+			);
+			path = SVPulsingAnnotationView;
+			sourceTree = "<group>";
+		};
 		ED8D388C1A1F61A0001611C5 = {
 			isa = PBXGroup;
 			children = (
+				83FDB29B1AEF57A3004847EB /* BridgingHeader.h */,
+				83FDB2861AEF56E7004847EB /* SVPulsingAnnotationView */,
 				ED8D38971A1F61A0001611C5 /* Flipbook */,
 				ED8D38AD1A1F61A0001611C5 /* FlipbookTests */,
 				1765260B1A236A4600B18ACB /* Flipbook WatchKit Extension */,
@@ -864,8 +918,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83FDB2951AEF56E7004847EB /* Dot.pcvd in Resources */,
+				83FDB2931AEF56E7004847EB /* .gitignore in Resources */,
+				83FDB2961AEF56E7004847EB /* Halo.pcvd in Resources */,
 				ED8D38A01A1F61A0001611C5 /* Main.storyboard in Resources */,
+				83FDB29A1AEF56E7004847EB /* SVPulsingAnnotationView.podspec in Resources */,
 				ED8D38A51A1F61A0001611C5 /* LaunchScreen.xib in Resources */,
+				83FDB2941AEF56E7004847EB /* LICENSE.txt in Resources */,
 				ED8D38A21A1F61A0001611C5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -893,9 +952,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED8D389D1A1F61A0001611C5 /* ViewController.swift in Sources */,
+				83FDB2991AEF56E7004847EB /* SVPulsingAnnotationView.m in Sources */,
 				ED6EAF971A234272001EFFF8 /* ArcView.swift in Sources */,
+				83FDB2971AEF56E7004847EB /* README.md in Sources */,
 				ED8D389B1A1F61A0001611C5 /* AppDelegate.swift in Sources */,
 				ED8D38BB1A1F7825001611C5 /* Flipbook.swift in Sources */,
+				83FDB2981AEF56E7004847EB /* SVAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1089,6 +1151,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/johndpope/Downloads/github.com/Flipbook-master/BridgingHeader.h";
 			};
 			name = Debug;
 		};
@@ -1101,6 +1164,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/johndpope/Downloads/github.com/Flipbook-master/BridgingHeader.h";
 			};
 			name = Release;
 		};
@@ -1148,6 +1212,7 @@
 				176526251A236A4600B18ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		176526271A236A4600B18ACB /* Build configuration list for PBXNativeTarget "Flipbook WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -1156,6 +1221,7 @@
 				176526231A236A4600B18ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED8D38901A1F61A0001611C5 /* Build configuration list for PBXProject "Flipbook" */ = {
 			isa = XCConfigurationList;
